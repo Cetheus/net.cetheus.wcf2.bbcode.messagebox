@@ -7,7 +7,7 @@
 			<allowedchildren>all^successbox,warnbox,infobox,errorbox</allowedchildren>
 			<sourcecode>0</sourcecode>
 			<wysiwyg>1</wysiwyg>
-			<wysiwygicon>errorBoxBBCode.png</wysiwygicon>
+			<wysiwygicon>fa-ban</wysiwygicon>
 			<buttonlabel>wcf.bbcode.buttonLabel.errorBox</buttonlabel>
 		</bbcode>
 		<bbcode name="infobox">
@@ -16,7 +16,7 @@
 			<allowedchildren>all^successbox,warnbox,infobox,errorbox</allowedchildren>
 			<sourcecode>0</sourcecode>
 			<wysiwyg>1</wysiwyg>
-			<wysiwygicon>infoBoxBBCode.png</wysiwygicon>
+			<wysiwygicon>fa-info-circle</wysiwygicon>
 			<buttonlabel>wcf.bbcode.buttonLabel.infoBox</buttonlabel>
 		</bbcode>
 		<bbcode name="successbox">
@@ -25,7 +25,7 @@
 			<allowedchildren>all^successbox,warnbox,infobox,errorbox</allowedchildren>
 			<sourcecode>0</sourcecode>
 			<wysiwyg>1</wysiwyg>
-			<wysiwygicon>successBoxBBCode.png</wysiwygicon>
+			<wysiwygicon>fa-check-circle</wysiwygicon>
 			<buttonlabel>wcf.bbcode.buttonLabel.successBox</buttonlabel>
 		</bbcode>
 		<bbcode name="warnbox">
@@ -34,7 +34,7 @@
 			<allowedchildren>all^successbox,warnbox,infobox,errorbox</allowedchildren>
 			<sourcecode>0</sourcecode>
 			<wysiwyg>1</wysiwyg>
-			<wysiwygicon>warnBoxBBCode.png</wysiwygicon>
+			<wysiwygicon>fa-warning</wysiwygicon>
 			<buttonlabel>wcf.bbcode.buttonLabel.warnBox</buttonlabel>
 		</bbcode>
 	</import>

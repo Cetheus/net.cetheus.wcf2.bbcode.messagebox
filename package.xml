@@ -5,7 +5,7 @@
 		<packagename language="de">BBCode Message-Box</packagename>
 		<packagedescription>This plugin adds some BB-Codes for various Message-Boxes (WBB Style)</packagedescription>
 		<packagedescription language="de">Dieses Plugin fügt mehrere BB-Code für Message-Boxen (im WBB-Stil) hinzu.</packagedescription>
-		<version>2.0.0</version>
+		<version>3.0.0</version>
 		<date>2017-05-09</date>
 	</packageinformation>
 
@@ -15,20 +15,14 @@
 	</authorinformation>
 
 	<requiredpackages>
-		<requiredpackage minversion="2.0.0">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="3.0.0">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 
 	<excludedpackages>
-		<excludedpackage version="1.0.*">net.cetheus.wcf2.bbcode.errorbox</excludedpackage>
-		<excludedpackage version="3.0.0">com.woltlab.wcf</excludedpackage>
+		<excludedpackage version="1.0.1">net.cetheus.wcf2.bbcode.errorbox</excludedpackage>
 	</excludedpackages>
 
-	<optionalpackages>
-		<optionalpackage file="optionals/net.cetheus.wcf2.bbcode.fontawesome.tar">net.cetheus.wcf2.bbcode.fontawesome</optionalpackage>
-	</optionalpackages>
-
 	<instructions type="install">
-		<instruction type="file">files.tar</instruction>
 		<instruction type="bbcode">bbcode.xml</instruction>
 		<instruction type="language">languages/*.xml</instruction>
 	</instructions>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.bbcode">
+	  <item name="wcf.bbcode.buttonLabel.errorBox"><![CDATA[Box für Fehlermeldung einfügen]]></item>
+	  <item name="wcf.bbcode.buttonLabel.infoBox"><![CDATA[Box für Infomeldung einfügen]]></item>
+	  <item name="wcf.bbcode.buttonLabel.successBox"><![CDATA[Box für Erfolgsmeldung einfügen]]></item>
+	  <item name="wcf.bbcode.buttonLabel.warnBox"><![CDATA[Box für Warnungsmeldung einfügen]]></item>
+	</category>
+</language>

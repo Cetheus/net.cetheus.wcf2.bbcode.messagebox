@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="net.cetheus.wcf2.bbcode.errorbox" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+<package name="net.cetheus.wcf.bbcode.messagebox" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/maelstrom/package.xsd">
 	<packageinformation>
 		<packagename>BBCode Message-Box</packagename>
 		<packagename language="de">BBCode Message-Box</packagename>
 		<packagedescription>This plugin adds some BB-Codes for various Message-Boxes (WBB Style)</packagedescription>
 		<packagedescription language="de">Dieses Plugin fügt mehrere BB-Code für Message-Boxen (im WBB-Stil) hinzu.</packagedescription>
-		<version>1.0.1 pl1</version>
+		<version>2.0.0</version>
 		<date>2017-05-09</date>
 	</packageinformation>
 
@@ -19,6 +19,7 @@
 	</requiredpackages>
 
 	<excludedpackages>
+		<excludedpackage version="1.0.*">net.cetheus.wcf2.bbcode.errorbox</excludedpackage>
 		<excludedpackage version="3.0.0">com.woltlab.wcf</excludedpackage>
 	</excludedpackages>
 
@@ -27,12 +28,6 @@
 	</optionalpackages>
 
 	<instructions type="install">
-		<instruction type="file">files.tar</instruction>
-		<instruction type="bbcode">bbcode.xml</instruction>
-		<instruction type="language">languages/*.xml</instruction>
-	</instructions>
-
-	<instructions type="update" fromversion="1.0.1">
 		<instruction type="file">files.tar</instruction>
 		<instruction type="bbcode">bbcode.xml</instruction>
 		<instruction type="language">languages/*.xml</instruction>
